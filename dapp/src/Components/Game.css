@@ -1,0 +1,17 @@
+.chess-board {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.chess-board > div {
+    border: solid rgba(0, 255, 64, 0.192) .2rem;
+    height: 6vh; 
+    width: 6vw;
+}
+
+.chess-board > .highlighted {
+    border: solid yellow .2rem;
+    height: 6vh; 
+    width: 6vw;
+}
